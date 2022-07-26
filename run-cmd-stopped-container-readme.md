@@ -12,7 +12,7 @@ Having the identifier 0dfd54557799 of the stopped container, we can create a new
 docker commit 0dfd54557799 debug/ubuntu
 
 # now we have a new image
-docker images list
+docker images
 REPOSITORY    TAG     IMAGE ID       CREATED         SIZE  
 debug/ubuntu  <none>  cc9db32dcc2d   2 seconds ago   64.3MB
 
